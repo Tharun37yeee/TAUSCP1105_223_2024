@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define FILE_NAME "phonebook1.txt"
-
 typedef struct 
 {
     char name[50];
@@ -221,6 +219,4 @@ void main() {
             default: printf("Invalid choice. Try again.\n");
         }
     }
-
-    //getch();
 }
